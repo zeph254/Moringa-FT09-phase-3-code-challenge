@@ -12,10 +12,12 @@ For our purposes, an `Author` has many `Article`s, a `Magazine` has many
 **Note**: You should draw your domain on paper or on a whiteboard _before you
 start coding_. Remember to identify a single source of truth for your data.
 
-## Instructions
+## Set Instructions
 
-To get started, run `pipenv install` while inside of this directory. Then run
-`pipenv shell` to jump into the shell.
+To get started, while inside of this directory.
+  - run `pipenv install` 
+  - run `pipenv shell` to jump into the shell. 
+  - run `python3 app.py` to create the database
 
 Build out all of the methods listed in the deliverables. The methods are listed
 in a suggested order, but you can feel free to tackle the ones you think are
