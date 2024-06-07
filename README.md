@@ -100,7 +100,8 @@ Write the following methods in the models(Article, Author, magazine) provided in
 
 - `Article __init__(self, author, magazine, title)`
   - Article is initialized with an `Author` instance, a `Magazine` instance, and a title. 
-  NB: Creating a new entry in the `article` table requires the author and maagzine Foreign Keys. Find a way to retrive the author and maagzine id properties from their respective models then use them here
+
+  NB: Creating a new entry in the `article` table requires the author and magazine PKs(Primary Keys) as FKs(Foreign Keys). Find a way to retrive the author and maagzine id properties from their respective models then use them here
   - The initialization should create a new entry in the database `articles` table
 - `Article property title`
   - Returns the article's title
