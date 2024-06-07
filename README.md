@@ -81,7 +81,7 @@ Write the following methods in the models(Article, Author, magazine) provided in
   - This initialization should create a new entry in the database `magazines` table 
 - `Author property id`
   - Returns the id of the newly created `Magazine`
-  - Names must be of type `int`
+  - id must be of type `int`
   - Remember to use the setter and getter method for easy retrieval, since this will be needed when creating `articles`
 - `Magazine property name`
   - Returns the magazine's name
