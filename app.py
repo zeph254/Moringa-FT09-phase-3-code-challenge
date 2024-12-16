@@ -56,15 +56,15 @@ def main():
     # Display results
     print("\nMagazines:")
     for magazine in magazines:
-        print(Magazine(magazine["id"], magazine["name"], magazine["category"]))
+       print(f'ID: {magazine["id"]}, Name: {magazine["name"]}, Category: {magazine["category"]}')
 
     print("\nAuthors:")
     for author in authors:
-        print(Author(author["id"], author["name"]))
+       print(f'ID: {author["id"]}, Name: {author["name"]}')
 
     print("\nArticles:")
     for article in articles:
-        print(Article(article["id"], article["title"], article["content"], article["author_id"], article["magazine_id"]))
+       print(f'ID: {article["id"]}, Title: {article["title"]}, Author ID: {article["author_id"]}, Magazine ID: {article["magazine_id"]}')
 
 if __name__ == "__main__":
     main()
